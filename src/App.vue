@@ -1,9 +1,13 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/personal">Personal</router-link>
   </nav>
   <router-view/>
+  <footer>
+    Copyright &copy; 2023 Alex
+  </footer>
 </template>
 
 <style>
